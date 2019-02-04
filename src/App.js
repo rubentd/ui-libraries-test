@@ -1,25 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Card, Form, Button } from 'semantic-ui-react';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Card>
+          <Card.Content>
+            <Card.Header>
+              Register
+            </Card.Header>
+          </Card.Content>
+          <Card.Content>
+          <Form>
+            <Form.Field>
+              <label>First Name</label>
+              <input placeholder='First Name' />
+            </Form.Field>
+            <Form.Field>
+              <label>Last Name</label>
+              <input placeholder='Last Name' />
+            </Form.Field>
+            <Form.Field>
+              <label>Email</label>
+              <input type="email" placeholder='email' />
+            </Form.Field>
+            <Button primary type='submit'>Submit</Button>
+          </Form>
+          </Card.Content>
+        </Card>
       </div>
     );
   }
