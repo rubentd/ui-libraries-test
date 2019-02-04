@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Card>
+        <Card style={{ width: 400 }}>
           <Card.Content>
             <Card.Header>
               Register
@@ -26,7 +26,7 @@ class App extends Component {
               <label>Email</label>
               <input type="email" placeholder='email' />
             </Form.Field>
-            <Button primary type='submit'>Submit</Button>
+            <Button primary fluid type='submit'>Submit</Button>
           </Form>
           </Card.Content>
         </Card>

@@ -3,3 +3,28 @@
   justify-content: center;
   padding: 80px;
 }
+
+/* override default styles */
+.ui.primary.button, .ui.primary.buttons .button {
+  background-color: #E76026;
+  text-transform: uppercase;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  padding: 20px 40px;
+}
+
+.ui.card>.content .form, .ui.cards>.card>.content .form{
+  padding: 20px 0;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  color: #5D5B59;
+  text-align: center;
+  font-size: 24px;
+}
+
+.ui.form .field>label {
+  color: #C4C7C7;
+  text-transform: uppercase;
+}
