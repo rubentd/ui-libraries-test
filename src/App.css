@@ -3,3 +3,37 @@
   justify-content: center;
   padding: 80px;
 }
+
+.bp3-button:not([class*="bp3-intent-"]) {
+  background-color: #ea5f25 !important;
+  background-image: none;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: none;
+  font-weight: bold;
+}
+
+.bp3-card {
+  padding: 0;
+}
+
+.bp3-card h5 {
+  padding: 20px 4px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  color: #5D5B59;
+  font-size: 24px;
+}
+
+.bp3-label {
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 40px;
+}
