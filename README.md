@@ -5,7 +5,7 @@
 | semantic-ui-react| 8.903        | 629 KB          | 236 KB              |
 | blueprintjs      | 13.149       | 302 KB          | 493 KB              |
 | material-ui      | 44.136       | N/A             | 252 KB              |
-| ant-design       |
+| ant-design       | 42.108       | 588 KB          | 828 KB              |
 
 
 
