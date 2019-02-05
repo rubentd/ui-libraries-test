@@ -3,3 +3,31 @@
   justify-content: center;
   padding: 80px;
 }
+
+.ant-card-head-title {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+.ant-card-body {
+  padding: 40px;
+}
+
+.ant-btn-primary {
+  background-color: #ea5f25 !important;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.ant-form-item-label label {
+  text-transform: uppercase;
+}
+
+.ant-btn.ant-btn-primary {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 40px;
+}
